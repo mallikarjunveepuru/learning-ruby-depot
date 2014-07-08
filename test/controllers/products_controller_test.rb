@@ -15,6 +15,9 @@ class ProductsControllerTest < ActionController::TestCase
     get :index
     assert_response :success
     assert_not_nil assigns(:products)
+    assert_select '.list_description dt', 'Programming Ruby 1.9'
+    assert_select '.list_description dd', 3
+    assert_select '.list_actions a', 9
   end
 
   test "should get new" do
