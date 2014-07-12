@@ -16,8 +16,8 @@ class ProductsControllerTest < ActionController::TestCase
     assert_response :success
     assert_not_nil assigns(:products)
     assert_select '.list_description dt', 'Programming Ruby 1.9'
-    assert_select '.list_description dd', 3
-    assert_select '.list_actions a', 9
+    assert_select '.list_description dd', 4
+    assert_select '.list_actions a', 12
   end
 
   test "should get new" do
