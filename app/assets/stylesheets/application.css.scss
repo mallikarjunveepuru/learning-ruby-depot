@@ -50,6 +50,24 @@
     width: 13em;
     background: #141;
     color: #efe;
+
+    form, div {
+      display: inline;
+    }
+
+    input {
+      font-size: small;
+    }
+
+    #cart {
+      font-size: smaller;
+
+      table {
+        border-top: 1px dotted #595;
+        border-bottom: 1px dotted #595;
+        margin-bottom: 10px;
+      }
+    }
   }
 
   ul {

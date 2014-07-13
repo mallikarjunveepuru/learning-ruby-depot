@@ -1,4 +1,7 @@
 class StoreController < ApplicationController
+  include CurrentCart
+  before_action :set_cart
+
   def index
     session[:store_index_views_count] ||= 0
     session[:store_index_views_count] += 1
