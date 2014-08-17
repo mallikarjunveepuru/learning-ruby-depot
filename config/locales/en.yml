@@ -5,7 +5,7 @@ en:
   layouts:
     application:
       title: "Pragmatic Bookshelf"
-      home: "Home"
+      home: "My home"
       questions: "Questions"
       news: "News"
       contact: "Contact"
