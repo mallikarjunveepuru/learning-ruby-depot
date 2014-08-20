@@ -1,16 +1,17 @@
 == README
 
-Site created with instructions from book «Agile Web Development with Rails 4»
-
-Technologies:
-
-— Ruby 2.1.2
-— Ruby on Rails 4.0.0
-— MySQL
-— Nginx
-— Passenger
-— Git
-— Capistrano
-
-CI from GitHub to VPS 
-http://depot.ruby.learning.by.lkg0dzre.com
+Site created with instructions from book «Agile Web Development with Rails 4»  
+  
+Technologies:  
+  
+— Ruby 2.1.2  
+— Ruby on Rails 4.0.0  
+— MySQL  
+— Nginx  
+— Passenger  
+— Git  
+— Capistrano  
+  
+CI from GitHub to VPS   
+http://depot.ruby.learning.by.lkg0dzre.com  
+  
